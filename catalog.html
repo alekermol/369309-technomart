@@ -9,17 +9,21 @@
 <body>
     <header class="main-header">
         <p class="logo">Техномарт</p>
-        <p>Поиск</p>
-        <!--Тут будет форма-->
+        <form class="search">
+            <input type="search" name="search" placeholder="Поиск">
+        </form>
         <p class="top-button"><a href="bookmark.html">Закладки</a></p>
         <p class="top-button"><a href="basket.html">Корзина</a></p>
         <p class="feedback-ordering"><a href="order.html">Оформить заказ</a></p>
         <ul class="user-menu">
             <li>
-                <p class="header-button"><a href="entrance.html" class="link">Войти</a></p>
+                <p class="header-button"><a href="my-orders.html" class="link">Мои заказы</a></p>
             </li>
             <li>
-                <p class="header-button"><a href="registration.html" class="link">Регистрация</a></p>
+                <p class="header-button"><a href="personal-area.html" class="link">Личный кабинет</a></p>
+            </li>
+            <li>
+                <p class="header-button"><a href="go-out.html" class="link">Выйти</a></p>
             </li>
         </ul>
         <p class="about-shop">Интернет-магазин строительных материалов и инструментов для ремонта</p>
@@ -49,14 +53,48 @@
         </ul>
         <section class="filters">
             <h2 class="visually-hidden">Фильтр товаров</h2>
-            <!-- Здесь будет форма -->
+            <form class="filter">
+                <fieldset>
+                    <h3>Цена</h3>
+                    <input type="range" min="0" max="30000" step="10">
+                </fieldset>
+                <fieldset>
+                    <h3>Производители:</h3>
+                    <input type="checkbox" name="manufacturers" id="manufacturers-bosch" checked>
+                    <label for="manufacturers-field">Bosch</label>
+                    <input type="checkbox" name="manufacturers" id="manufacturers-interscol" checked>
+                    <label for="manufacturers-interscol">Интерскол</label>
+                    <input type="checkbox" name="manufacturers" id="manufacturers-makita" checked>
+                    <label for="manufacturers-makita">Makita</label>
+                    <input type="checkbox" name="manufacturers" id="manufacturers-dewalt" checked>
+                    <label for="manufacturers-dewalt">Dewalt</label>
+                    <input type="checkbox" name="manufacturers" id="manufacturers-hitachi" checked>
+                    <label for="manufacturers-hitachi">Hitachi</label>
+                </fieldset>
+                <fieldset>
+                    <h3>Питание:</h3>
+                    <label>
+                        <input type="radio" name="power" value="b" checked>
+                        Аккумуляторные
+                    </label>
+                    <label>
+                        <input type="radio" name="power" value="b">
+                        Сетевые
+                    </label>
+                </fieldset>
+                <button class="form-button">Показать</button>
+            </form>
         </section>
         <section class="catalog">
             <h2 class="visually-hidden">Список средств для ухода</h2>
             <ul class="sorting">
-                <li><button class="sorting-button disabled-button">По цене</button></li>
-                <li><button class="sorting-button">По типу</button></li>
-                <li><button class="sorting-button">По функционалу</button></li>
+                <li><a class="sorting-type disabled-button" href="catalog.html">По цене</a></li>
+                <li><a class="sorting-type" href="catalog.html">По типу</a></li>
+                <li><a class="sorting-type" href="catalog.html">По функционалу</a></li>
+            </ul>
+            <ul class="sorting-order">
+                <li><a class="sorting-button" href="catalog.html">По возрастанию</a></li>
+                <li><a class="sorting-button" href="catalog.html">По убыванию</a></li>
             </ul>
             <ul class="catalog-list">
                 <li>
@@ -160,10 +198,10 @@
                 </li>
             </ul>
             <ul class="pagination-list">
-                <li class="pagination-item pagination-item-current">1</li>
-                <li class="pagination-item"><a href="#">2</a></li>
-                <li class="pagination-item"><a href="#">3</a></li>
-                <li class="pagination-item"><a href="#">Следующая</a></li>
+                <li><a class="pagination-item pagination-item-current" href="catalog.html">1</a></li>
+                <li><a class="pagination-item pagination-item-current" href="catalog.html">2</a></li>
+                <li><a class="pagination-item pagination-item-current" href="catalog.html">3</a></li>
+                <li><a class="pagination-item pagination-item-current" href="catalog.html">Следующая</a></li>
             </ul>
         </section>
         <section class="about-perforators">
