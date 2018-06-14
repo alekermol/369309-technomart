@@ -1,6 +1,6 @@
 body {
     color: black;
-    background-color: #808080;
+    background-color: white;
     font-size: 16px;
     font-family: "Cuprum", Arial, sans-serif;
     line-height: 24px;
@@ -12,12 +12,15 @@ a {
 }
 
 li {
-    list-style-type: none; /* Убираем маркеры */
+    list-style-type: none;
+    /* Убираем маркеры */
 }
 
- ul {
-    margin-left: 0; /* Отступ слева в браузере IE и Opera */
-    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+ul {
+    margin-left: 0;
+    /* Отступ слева в браузере IE и Opera */
+    padding-left: 0;
+    /* Отступ слева в браузере Firefox, Safari, Chrome */
 }
 
 .top-header {
@@ -46,7 +49,7 @@ header {
 }
 
 .adress {
-   font-size: 14px; 
+    font-size: 14px;
 }
 
 .site-navigator {
@@ -55,7 +58,9 @@ header {
     background-color: #32425c;
 }
 
-.top-button, search, feedback-ordering {
+.top-button,
+search,
+feedback-ordering {
     line-height: 18px;
     font-size: 17px;
 }
@@ -96,17 +101,18 @@ header {
     background-color: #ffc047;
 }
 
-.services li a, .products li a{
+.services li a,
+.products li a {
     font-size: 14px;
     line-height: 18px;
 }
 
 .stock {
     color: white;
-    background-color:  #808080;
+    background-color: #808080;
 }
 
-.stock h3{
+.stock h3 {
     font-size: 36px;
     font-weight: bold;
 }
@@ -116,13 +122,18 @@ header {
     line-height: 24px;
 }
 
-.stock a {
+.stock a,
+.popular-products div a,
+.popular-manufacturera div a,
+.about-company a, 
+.contacts a{
     font-size: 14px;
     line-height: 18px;
     background-color: #ee3643;
 }
 
-.popular-products div:nth-child(1), .popular-manufacturer div:nth-child(1) {
+.popular-products div:nth-child(1),
+.popular-manufacturer div:nth-child(1) {
     background-color: #f9f5f0;
     color: #32425c;
     font-size: 30px;
@@ -158,4 +169,72 @@ header {
     font-size: 21px;
     line-height: 30px;
     font-weight: bold;
+}
+
+.about-services h2,
+.about-company h2, 
+.contacts h2 {
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.about-services p,
+.about-company p 
+.contacts p {
+    font-family: "PT Sans", "Arial", serif;
+    font-size: 13px;
+    line-height: 24px;
+}
+
+.list-of-services a{
+    font-size: 13px;
+    line-height: 24px;
+    color: #32425c;
+}
+
+.about-company ul li {
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.footer-logo {
+    font-size: 30px;
+    line-height: 30px;
+    background-color: #ee3643;
+    color: white;
+}
+
+.main-footer .adress {
+    font-size: 18px;
+    line-height: 24px;
+    color: #f3f7f9;
+}
+
+.footer-top {
+    background-color: #32425c;
+}
+
+.footer-top adress,
+.footer-navigator a, 
+.footer-products a {
+	font-size: 18px;
+    line-height: 24px;
+}
+
+.footer-products a{
+    color: #ffd180;
+}
+
+.footer-bottom {
+    background-color: #293449;
+}
+
+.footer-bottom p {
+    font-size: 16px;
+    line-height: 18px;
+    color: white;
+}
+
+.footer-bottom a {
+    color: #ffd180;
 }
