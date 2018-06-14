@@ -159,6 +159,7 @@ feedback-ordering {
     font-size: 17px;
     line-height: 18px;
     font-weight: bold;
+    background-color: #ee3643;
 }
 
 .about-services {
@@ -173,14 +174,16 @@ feedback-ordering {
 
 .about-services h2,
 .about-company h2, 
-.contacts h2 {
+.contacts h2, 
+.about-perforators {
     font-size: 30px;
     line-height: 30px;
 }
 
 .about-services p,
 .about-company p 
-.contacts p {
+.contacts p,
+.about-perforators p {
     font-family: "PT Sans", "Arial", serif;
     font-size: 13px;
     line-height: 24px;
