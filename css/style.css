@@ -1,25 +1,161 @@
 body {
     color: black;
-    background-color: white;
+    background-color: #808080;
     font-size: 16px;
+    font-family: "Cuprum", Arial, sans-serif;
+    line-height: 24px;
 }
 
 a {
     text-decoration: none;
+    color: white;
 }
 
+li {
+    list-style-type: none; /* Убираем маркеры */
+}
+
+ ul {
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+
+.top-header {
+    background-color: #293449;
+}
+
+.logo {
+    font-size: 24px;
+    background-color: #ee3643;
+}
+
+header {
+    background-color: #f3f7f9;
+}
 
 .about-shop {
     color: #ee3643;
     font-size: 16px;
+    line-height: 23px;
 }
 
 .phone-number {
     color: #ee3643;
     font-size: 21px;
+    line-height: 21px;
 }
 
+.adress {
+   font-size: 14px; 
+}
 
 .site-navigator {
     font-size: 17px;
+    line-height: 17px;
+    background-color: #32425c;
+}
+
+.top-button, search, feedback-ordering {
+    line-height: 18px;
+    font-size: 17px;
+}
+
+.feedback-ordering {
+    background-color: #63a63e;
+}
+
+.header-button a {
+    color: black;
+    font-size: 21px;
+    background-color: white;
+}
+
+.products-name {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.products li:nth-child(1) {
+    background-color: #ffbf47;
+}
+
+.products li:nth-child(2) {
+    background-color: #3bbce3;
+}
+
+.products li:nth-child(3) {
+    background-color: #dc91d8;
+}
+
+.services li:nth-child(1) {
+    background-color: #8ed78f;
+}
+
+.services li:nth-child(2) {
+    background-color: #ffc047;
+}
+
+.services li a, .products li a{
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.stock {
+    color: white;
+    background-color:  #808080;
+}
+
+.stock h3{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.stock p {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.stock a {
+    font-size: 14px;
+    line-height: 18px;
+    background-color: #ee3643;
+}
+
+.popular-products div:nth-child(1), .popular-manufacturer div:nth-child(1) {
+    background-color: #f9f5f0;
+    color: #32425c;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.popular-products h3 {
+    color: black;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+.popular-products del {
+    color: #a9a9a9;
+    font-size: 17px;
+    line-height: 18px;
+    font-weight: bold;
+}
+
+.popular-products b:last-child {
+    color: white;
+    font-size: 17px;
+    line-height: 18px;
+    font-weight: bold;
+}
+
+.about-services {
+    background-color: #f4f7f9;
+}
+
+.about-services .list-of-services {
+    font-size: 21px;
+    line-height: 30px;
+    font-weight: bold;
 }
