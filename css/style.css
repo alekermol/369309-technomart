@@ -259,3 +259,25 @@ feedback-ordering {
 .footer-bottom a {
     color: #ffd180;
 }
+
+.filters h2,
+.sorting h2, 
+.sorting ul:first-child {
+    font-family: "PT Sans", "Arial", serif;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.sorting {
+    background-color: #f7f3ec;
+}
+
+.sorting-type{
+    color: #dcd8d2;
+    border-bottom: 1px dotted #ee3643;
+}
+
+.disabled-button{
+    color: #ee3643;
+    border-bottom: none;
+}
