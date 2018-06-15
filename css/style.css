@@ -23,6 +23,12 @@ ul {
     /* Отступ слева в браузере Firefox, Safari, Chrome */
 }
 
+.main-header,
+.container, 
+.main-footer {
+    display: flex;
+}
+
 .visually-hidden {
     position: absolute;
 
