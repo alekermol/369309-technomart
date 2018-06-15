@@ -12,7 +12,7 @@
 <body>
     <header class="main-header">
         <p class="logo">Техномарт</p>
-        <form class="search">
+        <form class="search" action="https://echo.htmlacademy.ru">
             <button type="submit" class="search-button" aria-label="Поиск">Поиск</button>
             <input type="search" name="search" placeholder="Поиск:">
         </form>
@@ -20,14 +20,26 @@
         <p class="top-button"><a href="basket.html">Корзина</a></p>
         <p class="feedback-ordering"><a href="order.html">Оформить заказ</a></p>
         <ul class="user-menu">
+<!--
             <li>
-                <p class="header-button"><a href="my-orders.html" class="link">Мои заказы</a></p>
+                <p class="header-button"><a href="entrance.html" class="link">Войти</a></p>
             </li>
             <li>
-                <p class="header-button"><a href="personal-area.html" class="link">Личный кабинет</a></p>
+                <p class="header-button"><a href="registration.html" class="link">Регистрация</a></p>
+            </li>
+-->
+            <li>
+                <p class="header-button"><a href="entrance.html" class="link">Равшан Джамшутович</a></p>
             </li>
             <li>
-                <p class="header-button"><a href="go-out.html" class="link">Выйти</a></p>
+                <ul class="user-services">
+                    <li>
+                        <p><a href="my-orders.html" class="link">Мои заказы</a></p>
+                    </li>
+                    <li>
+                        <p><a href="personal-area.html" class="link">Личный кабинет</a></p>
+                    </li>
+                </ul>
             </li>
         </ul>
         <p class="about-shop">Интернет-магазин строительных материалов и инструментов для ремонта</p>
@@ -57,7 +69,7 @@
         </ul>
         <section class="filters">
             <h2 class="visually-hidden">Фильтр товаров</h2>
-            <form class="filter">
+            <form class="filter" action="https://echo.htmlacademy.ru">
                 <fieldset>
                     <h3>Цена</h3>
                     <input type="range" min="0" max="30000" step="10">
