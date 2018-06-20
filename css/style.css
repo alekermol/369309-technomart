@@ -11,9 +11,23 @@ a {
 }
 
 .main-header,
-.container, 
+.container,
 .main-footer {
     display: flex;
+}
+
+.main-header {
+  margin-bottom: 60px;
+}
+    
+
+.site-navigator {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    width: 940px;
 }
 
 .visually-hidden {
@@ -75,14 +89,14 @@ feedback-ordering {
     background-color: #63a63e;
 }
 
-.user-menu li a {
+.user-menu a {
     color: black;
     font-size: 21px;
     background-color: white;
 }
 
-.user-services li a{
-	line-height: 18px;
+.user-services a {
+    line-height: 18px;
     font-size: 16px;
     color: #32425c;
     text-decoration: underline;
@@ -207,7 +221,7 @@ feedback-ordering {
     color: #32425c;
 }
 
-.about-company ul li {
+.about-company-items {
     font-size: 18px;
     line-height: 20px;
 }
@@ -255,7 +269,7 @@ feedback-ordering {
 }
 
 .filters h2,
-.sorting h2, 
+.sorting h2,
 .sorting ul:first-child {
     font-family: "PT Sans", "Arial", serif;
     font-size: 13px;
@@ -266,12 +280,12 @@ feedback-ordering {
     background-color: #f7f3ec;
 }
 
-.sorting-type{
+.sorting-type {
     color: #dcd8d2;
     border-bottom: 1px dotted #ee3643;
 }
 
-.disabled-button{
+.disabled-button {
     color: #ee3643;
     border-bottom: none;
 }
