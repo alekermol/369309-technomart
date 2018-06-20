@@ -8,19 +8,6 @@ body {
 
 a {
     text-decoration: none;
-    color: white;
-}
-
-li {
-    list-style-type: none;
-    /* Убираем маркеры */
-}
-
-ul {
-    margin-left: 0;
-    /* Отступ слева в браузере IE и Opera */
-    padding-left: 0;
-    /* Отступ слева в браузере Firefox, Safari, Chrome */
 }
 
 .main-header,
@@ -88,10 +75,17 @@ feedback-ordering {
     background-color: #63a63e;
 }
 
-.header-button a {
+.user-menu li a {
     color: black;
     font-size: 21px;
     background-color: white;
+}
+
+.user-services li a{
+	line-height: 18px;
+    font-size: 16px;
+    color: #32425c;
+    text-decoration: underline;
 }
 
 .products-name {
@@ -100,23 +94,23 @@ feedback-ordering {
     line-height: 30px;
 }
 
-.products li:nth-child(1) {
+.products-item-mater {
     background-color: #ffbf47;
 }
 
-.products li:nth-child(2) {
+.products-item-instr {
     background-color: #3bbce3;
 }
 
-.products li:nth-child(3) {
+.products-item-technik {
     background-color: #dc91d8;
 }
 
-.services li:nth-child(1) {
+.services-item-sale {
     background-color: #8ed78f;
 }
 
-.services li:nth-child(2) {
+.services-item-delivery {
     background-color: #ffc047;
 }
 

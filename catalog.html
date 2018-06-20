@@ -13,8 +13,8 @@
     <header class="main-header">
         <p class="logo">Техномарт</p>
         <form class="search" action="https://echo.htmlacademy.ru">
-            <button type="submit" class="search-button" aria-label="Поиск">Поиск</button>
-            <input type="search" name="search" placeholder="Поиск:">
+            <button type="submit" class="search-button" >Поиск</button>
+            <input type="search" name="search" placeholder="Поиск:" aria-label="Поиск">
         </form>
         <p class="top-button"><a href="bookmark.html">Закладки</a></p>
         <p class="top-button"><a href="basket.html">Корзина</a></p>
@@ -22,14 +22,14 @@
         <ul class="user-menu">
 <!--
             <li>
-                <p class="header-button"><a href="entrance.html" class="link">Войти</a></p>
+                <a href="entrance.html" class="link">Войти</a>
             </li>
             <li>
-                <p class="header-button"><a href="registration.html" class="link">Регистрация</a></p>
+                <a href="registration.html" class="link">Регистрация</a>
             </li>
 -->
             <li>
-                <p class="header-button"><a href="entrance.html" class="link">Равшан Джамшутович</a></p>
+                <a href="entrance.html" class="link">Равшан Джамшутович</a>
             </li>
             <li>
                 <ul class="user-services">
@@ -71,7 +71,7 @@
             <h2>Фильтр:</h2>
             <form class="filter" action="https://echo.htmlacademy.ru">
                 <fieldset>
-                    <h3>Цена</h3>
+                    <legend>Цена</legend>
                     <input type="range" min="0" max="30000" step="10">
                 </fieldset>
                 <fieldset>
@@ -88,7 +88,7 @@
                     <label for="manufacturers-hitachi">Hitachi</label>
                 </fieldset>
                 <fieldset>
-                    <h3>Питание:</h3>
+                    <legend>Питание:</legend>
                     <label>
                         <input type="radio" name="power" value="b" checked>
                         Аккумуляторные
