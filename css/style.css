@@ -23,27 +23,37 @@ a {
     flex-basis: 320px;
 }
     
-.top-header, 
-.user-menu-div {
+.top-header {
     display: flex;
+    flex-direction: row;
+    flex-basis: 940px;
+}
+
+.main-navigator {
+    min-height: 55px;
+    width: 940px;
 }
 
 .site-navigator {
     display: flex;
-    width: 940px;
-    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-basis: 940px;
+    justify-content: space-around;
     list-style-type: none;
-    min-height: 55px;
     background-color: #32425c;
-    justify-content:space-around;
+    margin: 0;
     padding: 0;
 }
 
 .site-navigator a {
+    display: block;
     color: white;
+    vertical-align: middle;
     font-size: 17px;
     line-height: 17px;
-    
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .visually-hidden {
@@ -88,11 +98,12 @@ header {
     font-size: 14px;
 }
 
-.top-button,
-search,
-feedback-ordering {
+.top-button a,
+.search a,
+.feedback-ordering a{
     line-height: 18px;
     font-size: 17px;
+    color: white;
 }
 
 .feedback-ordering {
