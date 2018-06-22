@@ -26,7 +26,11 @@ a {
 .top-header {
     display: flex;
     flex-direction: row;
-    flex-basis: 940px;
+}
+
+.user-menu-div {
+    display: flex;
+    flex-direction: row;
 }
 
 .main-navigator {
@@ -309,4 +313,67 @@ header {
 .disabled-button {
     color: #ee3643;
     border-bottom: none;
+}
+
+.footer-bottom {
+    display: flex;
+}
+
+.trade-mark {
+    width: 240px;
+}
+
+.footer-contacts {
+    width: 140px;
+}
+
+
+.footer-social {
+  display: flex;
+  justify-content: space-between;
+  width: 141px;
+  margin: 0 auto;
+  padding: 0;
+
+  list-style: none;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 410px;
+    justify-content: center;
+
+}
+
+.products {
+    display: flex;
+    margin: 0;
+}
+
+.products li {
+    width: 300px;
+    height: 120px;
+    list-style-type: none;
+    margin: 10px;
+}
+
+.services {
+    display: flex; 
+    flex-direction: column;
+    align-self: flex-end;
+    margin: 0;
+}
+
+.services li {
+    width: 300px;
+     height: 120px;
+    list-style-type: none;
+    margin: 10px;
+}
+
+.stock {
+    align-self: flex-start;
+    width: 620px;
+    height: 265px;
 }
