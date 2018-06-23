@@ -11,12 +11,121 @@ a {
     text-decoration: none;
 }
 
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+.top-header {
+    background-color: #293449;
+}
+
+.top-header__wrapper {
+    display: flex;
+}
+
+.logo {
+    flex: 0 0 220px;
+
+    margin: 0 5px 0 0;
+
+    font-size: 24px;
+}
+
+.logo__link {
+    display: block;
+    margin-bottom: -5px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+
+    background-color: #ee3643;
+    border-bottom: 5px solid #9c2933;
+}
+
+
+.search {
+    flex: 0 0 300px;
+
+    display: flex;
+}
+
+.search__input {
+    flex: 1 0 150px;
+
+    background: transparent;
+    border: 0;
+}
+
+.search__input:focus {
+    background-color: #ffffff;
+}
+
+.search-button {
+    order: -1;
+
+    background: transparent;
+    border: 0;
+}
+
+
+.top-header__bookmark {
+    margin-left: auto;
+}
+
+.top-header__bookmark-link {
+    display: block;
+    padding: 12px 20px 12px 40px;
+}
+
+.top-button {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.top-header__cart-link {
+    display: block;
+    padding: 12px 40px 12px 40px;
+}
+
+
+.feedback-ordering {
+    margin: 0;
+}
+
+.feedback-ordering a {
+    display: block;
+    padding: 12px 20px;
+}
+
+
+.bottom-header {
+    background-color: #f5f7f9;
+    padding-top: 45px;
+    padding-bottom: 60px;
+}
+
+.bottom-header__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-menu {
+    display: flex;
+    margin: 0;
+    list-style-type: none;
+}
+
 .main-header,
 .container,
 .main-footer {
-    display: flex;
+    /*    display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center;*/
 }
 
 .main-header {
@@ -24,7 +133,10 @@ a {
     flex-basis: 320px;
 }
 
-.top-header {}
+.top-header {
+    /*    display: flex;
+    flex-direction: row;*/
+}
 
 .user-menu-div {
     display: flex;
@@ -33,7 +145,9 @@ a {
 
 .main-navigator {
     min-height: 55px;
-    width: 940px;
+    width: 1200px;
+    margin: 0 auto;
+
 }
 
 .site-navigator {
@@ -86,6 +200,7 @@ header {
     font-size: 16px;
     line-height: 23px;
     font-family: "Cuprum", Arial, sans-serif;
+    width: 180px;
 }
 
 .phone-number {
