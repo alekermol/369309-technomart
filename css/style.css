@@ -572,3 +572,14 @@ header {
     display: flex;
     flex-direction: column;
 }
+
+.footer-nav-prod__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footer-top__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
