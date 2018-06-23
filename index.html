@@ -11,45 +11,44 @@
 
 <body>
     <header class="main-header">
-        <div class="top-header">
-            <div class="container top-header__wrapper">
-                <p class="logo">
-                    <a class="logo__link">Техномарт</a>
-                </p>
+        <div class="container top-header__wrapper">
+            <p class="logo">
+                <a class="logo__link" href="index.html">Техномарт</a>
+            </p>
 
-                <form class="search" action="https://echo.htmlacademy.ru">
-                    <input class="search__input" type="search" name="search" placeholder="Поиск:" aria-label="Поиск">
-                    <button type="submit" class="search-button">Поиск</button>
-                </form>
+            <form class="search" action="https://echo.htmlacademy.ru">
+                <input class="search__input" type="search" name="search" placeholder="Поиск:" aria-label="Поиск">
+                <button type="submit" class="search-button">Поиск</button>
+            </form>
 
-                <p class="top-header__bookmark top-button">
-                    <a class="top-header__bookmark-link" href="bookmark.html">Закладки: 0</a>
-                </p>
-                <p class="top-header__cart top-button">
-                    <a class="top-header__cart-link" href="basket.html">Корзина: 0</a>
-                </p>
-                <p class="feedback-ordering">
-                    <a class="order-link" href="order.html">Оформить заказ</a>
-                </p>s
-            </div>
+            <p class="top-header__bookmark top-button">
+                <a class="top-header__bookmark-link" href="bookmark.html">Закладки: 0</a>
+            </p>
+            <p class="top-header__cart top-button">
+                <a class="top-header__cart-link" href="basket.html">Корзина: 0</a>
+            </p>
+            <p class="feedback-ordering">
+                <a class="order-link" href="order.html">Оформить заказ</a>
+            </p>s
+        </div>
 
 
-            <div class="bottom-header">
-                <div class="container bottom-header__wrapper">
-                    <p class="about-shop ">Интернет-магазин строительных материалов и инструментов для ремонта</p>
-                    <div class="header-info">
-                        <p class="phone-number">+7(812)555-05-55</p>
-                        <p class="adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-                    </div>
+        <div class="bottom-header">
+            <div class="container bottom-header__wrapper">
+                <p class="about-shop ">Интернет-магазин строительных материалов и инструментов для ремонта</p>
+                <div class="header-info">
+                    <p class="phone-number">+7(812)555-05-55</p>
+                    <p class="adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+                </div>
 
-                    <ul class="user-menu">
-                        <li>
-                            <a href="entrance.html" class="link">Войти</a>
-                        </li>
-                        <li>
-                            <a href="registration.html" class="link">Регистрация</a>
-                        </li>
-                        <!--
+                <ul class="user-menu">
+                    <li>
+                        <a href="entrance.html" class="link">Войти</a>
+                    </li>
+                    <li>
+                        <a href="registration.html" class="link">Регистрация</a>
+                    </li>
+                    <!--
                 <li>
                     <a href="entrance.html" class="link">Равшан Джамшутович</a>
                 </li>
@@ -64,23 +63,22 @@
                     </ul>
                 </li>
     -->
+                </ul>
+            </div>
+
+            <nav class="main-navigator">
+                <div class="container">
+                    <ul class="site-navigator">
+                        <li><a href="main.html">Главная</a></li>
+                        <li><a href="company.html">Компания</a></li>
+                        <li><a href="catalog.html">Каталог</a></li>
+                        <li><a href="news.html">Новости</a></li>
+                        <li><a href="special_offer.html">Спецпредложения</a></li>
+                        <li><a href="delivery.html">Доставка</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
                     </ul>
                 </div>
-
-                <nav class="main-navigator">
-                    <div class="container">
-                        <ul class="site-navigator">
-                            <li><a href="main.html">Главная</a></li>
-                            <li><a href="company.html">Компания</a></li>
-                            <li><a href="catalog.html">Каталог</a></li>
-                            <li><a href="news.html">Новости</a></li>
-                            <li><a href="special_offer.html">Спецпредложения</a></li>
-                            <li><a href="delivery.html">Доставка</a></li>
-                            <li><a href="contacts.html">Контакты</a></li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
+            </nav>
         </div>
     </header>
 
@@ -104,18 +102,21 @@
                     </li>
                 </ul>
                 <div class="stock-services__wrapper">
-                    <article class="stock stock__wrapper">
-                        <h3>Дрели</h3>
-                        <p>Соседям на радость!</p>
-                        <a href="catalog.html" class="link">Открыть каталог</a>
-                        <img src="img/slider_1.jpg" width="620" height="266" alt="Мужик с дрелью">
-                    </article>
-                    <article class="stock stock__wrapper visually-hidden">
-                        <h3>Перфораторы</h3>
-                        <p>Настоящие мужские игрушки.</p>
-                        <a href="catalog.html" class="link">Открыть каталог</a>
-                        <img src="img/slider_2.jpg" width="620" height="266" alt="Мужик с перфоратором">
-                    </article>
+                    <div class="all_stocks">
+                        <article class="stock stock__wrapper">
+                            <h3>Дрели</h3>
+                            <p>Соседям на радость!</p>
+                            <a href="catalog.html" class="link">Открыть каталог</a>
+                            <img src="img/slider_1.jpg" width="620" height="266" alt="Мужик с дрелью">
+                        </article>
+                        <article class="stock stock__wrapper visually-hidden">
+                            <h3>Перфораторы</h3>
+                            <p>Настоящие мужские игрушки.</p>
+                            <a href="catalog.html" class="link">Открыть каталог</a>
+                            <img src="img/slider_2.jpg" width="620" height="266" alt="Мужик с перфоратором">
+                        </article>
+                    </div>
+
 
                     <ul class="services">
                         <li class="services-item services-item-sale">

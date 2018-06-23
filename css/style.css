@@ -38,7 +38,7 @@ a {
     margin-bottom: -5px;
     padding-top: 20px;
     padding-bottom: 9px;
-
+    font-family: "Cuprum", Arial, sans-serif;
     text-align: center;
     color: #ffffff;
     text-transform: uppercase;
@@ -123,14 +123,13 @@ a {
 .main-header,
 .container,
 .main-footer {
-    /*    display: flex;
-    flex-direction: column;
-    align-items: center;*/
+    
 }
 
 .main-header {
     margin-bottom: 60px;
     flex-basis: 320px;
+    background-color: #293449;
 }
 
 .top-header {
@@ -568,10 +567,7 @@ header {
     justify-content: space-between;
 }
 
-.logo-adress__wrapper {
-    display: flex;
-    flex-direction: column;
-}
+
 
 .footer-nav-prod__wrapper {
     display: flex;
