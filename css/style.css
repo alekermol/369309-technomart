@@ -740,4 +740,9 @@ header {
 
 .filters {
     display: flex;
+    flex-direction: column;
+}
+
+.filter-catalog__wrapper {
+    display: flex;
 }
