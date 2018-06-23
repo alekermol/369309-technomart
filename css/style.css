@@ -513,7 +513,7 @@ header {
 }
 
 .items__wrapper {
-/*
+    /*
     display: flex;
     flex-direction: column;
 */
@@ -525,14 +525,23 @@ header {
     margin-top: 20px;
 }
 
-.stock__wrapper p{
+.stock__wrapper p {
     position: absolute;
 }
 
-.stock__wrapper h3{
-   position: absolute; 
+.stock__wrapper h3 {
+    position: absolute;
 }
 
-.stock__wrapper a{
-   position: absolute; 
+.stock__wrapper a {
+    position: absolute;
+}
+
+.footer-bottom__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.back-phone {
+    display: flex;
 }
