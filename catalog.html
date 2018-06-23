@@ -95,34 +95,34 @@
             <li class="breadcrumbs-current">Перфораторы</li>
         </ul>
         <section class="filters">
-            <h2>Фильтр:</h2>
+            <h2 class="filters-h2_style">Фильтр:</h2>
             <form class="filter" action="https://echo.htmlacademy.ru">
                 <fieldset>
-                    <legend>Цена</legend>
+                    <legend class="filter-legend">Цена</legend>
                     <input type="range" min="0" max="30000" step="10">
                 </fieldset>
                 <fieldset>
-                    <legend>Производители:</legend>
+                    <legend class="filter-legend">Производители:</legend>
                     <input type="checkbox" name="manufacturers" id="manufacturers-bosch" checked>
-                    <label for="manufacturers-bosch">Bosch</label>
+                    <label for="manufacturers-bosch" class="filter-points">Bosch</label>
                     <input type="checkbox" name="manufacturers" id="manufacturers-interscol" checked>
-                    <label for="manufacturers-interscol">Интерскол</label>
+                    <label for="manufacturers-interscol" class="filter-points">Интерскол</label>
                     <input type="checkbox" name="manufacturers" id="manufacturers-makita" checked>
-                    <label for="manufacturers-makita">Makita</label>
+                    <label for="manufacturers-makita" class="filter-points">Makita</label>
                     <input type="checkbox" name="manufacturers" id="manufacturers-dewalt" checked>
-                    <label for="manufacturers-dewalt">Dewalt</label>
+                    <label for="manufacturers-dewalt" class="filter-points">Dewalt</label>
                     <input type="checkbox" name="manufacturers" id="manufacturers-hitachi" checked>
-                    <label for="manufacturers-hitachi">Hitachi</label>
+                    <label for="manufacturers-hitachi" class="filter-points">Hitachi</label>
                 </fieldset>
                 <fieldset>
-                    <legend>Питание:</legend>
+                    <legend class="filter-legend">Питание:</legend>
                     <label>
-                        <input type="radio" name="power" value="b" checked>
-                        Аккумуляторные
+                        <input type="radio" name="power" id="radio-battery" value="b" checked>
+                         <label for="radio-battery" class="radio-style">Аккумуляторные</label>
                     </label>
                     <label>
-                        <input type="radio" name="power" value="b">
-                        Сетевые
+                        <input type="radio" name="power" id="radio-achain" value="b">
+                         <label for="radio-chain" class="radio-style">Сетевые:</label>
                     </label>
                 </fieldset>
                 <button class="form-button">Показать</button>
@@ -130,8 +130,8 @@
         </section>
 
         <section class="sorting">
-            <h2>Сортировка:</h2>
-            <ul>
+            <h2 class="filters-h2__style">Сортировка:</h2>
+            <ul class="sorting-points__style">
                 <li><a class="sorting-type disabled-button" href="catalog.html">По цене</a></li>
                 <li><a class="sorting-type" href="catalog.html">По типу</a></li>
                 <li><a class="sorting-type" href="catalog.html">По функционалу</a></li>

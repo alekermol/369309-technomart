@@ -50,7 +50,7 @@ a {
 
 .search {
     flex: 0 0 270px;
-    
+
     display: flex;
 }
 
@@ -60,9 +60,11 @@ a {
     border: 0;
 }
 
-.search__input::-webkit-input-placeholder { color:white; } {
-	
+.search__input::-webkit-input-placeholder {
+    color: white;
 }
+
+{}
 
 .search__input:focus {
     background-color: #ffffff;
@@ -133,9 +135,7 @@ a {
 
 .main-header,
 .container,
-.main-footer {
-    
-}
+.main-footer {}
 
 .main-header {
     margin-bottom: 60px;
@@ -391,7 +391,7 @@ header {
     font-size: 18px;
     line-height: 20px;
     font-family: "Cuprum", Arial, sans-serif;
-    list-style-type: none; 
+    list-style-type: none;
 }
 
 .footer-logo {
@@ -402,7 +402,7 @@ header {
     font-family: "Cuprum", Arial, sans-serif;
     width: 220px;
     height: 63px;
-    
+
 }
 
 .main-footer .adress {
@@ -455,6 +455,9 @@ header {
 }
 
 .sorting-type {
+    font-size: 13px;
+    line-height: 18px; 
+    text-transform: uppercase;
     color: #dcd8d2;
     border-bottom: 1px dotted #ee3643;
 }
@@ -559,11 +562,9 @@ header {
 .footer-navigator li,
 .footer-products li {
     list-style-type: none;
-} 
-
-.footer-navigator {
-    
 }
+
+.footer-navigator {}
 
 .footer-navigator__wrapper {
     display: flex;
@@ -593,8 +594,8 @@ header {
 }
 
 .products-item a,
-.services-item a, 
-.all_stocks a{
+.services-item a,
+.all_stocks a {
     font-size: 14px;
     line-height: 18px;
     color: white;
@@ -621,24 +622,69 @@ header {
     text-transform: uppercase;
 }
 
-.description-of-services li h3{
+.description-of-services li h3 {
     font-size: 36px;
     line-height: 36px;
     font-family: "Cuprum", Arial, sans-serif;
     text-transform: uppercase;
     color: #32425c;
 }
-.description-of-services li{
-   list-style-type: none; 
+
+.description-of-services li {
+    list-style-type: none;
 }
 
 .user-services li {
-	list-style-type: none;
+    list-style-type: none;
 }
 
-.user-services a{
+.user-services a {
     font-size: 16px;
     line-height: 18px;
     font-family: "Cuprum", Arial, sans-serif;
     text-transform: capitalize;
+}
+
+.breadcrumbs a,
+.breadcrumbs-current {
+    font-size: 21px;
+    line-height: 21px;
+    color: black;
+    font-family: "Cuprum", Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.breadcrumbs li {
+    list-style-type: none;
+}
+
+.filters-h2__style {
+    font-size: 13px;
+    line-height: 18px; 
+    text-transform: uppercase;
+}
+
+
+.filter-legend {
+    font-size: 17px;
+    line-height: 30px; 
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.filter-points,
+.radio-style {
+    font-size: 15px;
+    line-height: 20px; 
+    text-transform: uppercase;
+}
+
+.form-button {
+    font-size: 13px;
+    line-height: 18px; 
+    text-transform: uppercase;
+}
+
+.sorting-points__style {
+    list-style-type: none;   
 }
