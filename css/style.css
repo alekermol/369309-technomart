@@ -318,7 +318,8 @@ header {
     font-family: "Cuprum", Arial, sans-serif;
 }
 
-.popular-products h3 {
+.popular-products h3,
+.catalog-list h3{
     color: black;
     font-size: 18px;
     line-height: 20px;
@@ -326,7 +327,8 @@ header {
     font-family: "Cuprum", Arial, sans-serif;
 }
 
-.popular-products del {
+.popular-products del,
+.catalog-list del {
     color: #a9a9a9;
     font-size: 17px;
     line-height: 18px;
@@ -334,7 +336,8 @@ header {
     font-family: "Cuprum", Arial, sans-serif;
 }
 
-.popular-products b:last-child {
+.popular-products b:last-child,
+.catalog-list b:last-child {
     color: white;
     font-size: 17px;
     line-height: 18px;
@@ -367,7 +370,7 @@ header {
 .about-services h2,
 .about-company h2,
 .contacts h2,
-.about-perforators {
+.about-perforators h2{
     font-size: 30px;
     line-height: 30px;
     font-family: "Cuprum", Arial, sans-serif;
@@ -456,7 +459,7 @@ header {
 
 .sorting-type {
     font-size: 13px;
-    line-height: 18px; 
+    line-height: 18px;
     text-transform: uppercase;
     color: #dcd8d2;
     border-bottom: 1px dotted #ee3643;
@@ -660,14 +663,14 @@ header {
 
 .filters-h2__style {
     font-size: 13px;
-    line-height: 18px; 
+    line-height: 18px;
     text-transform: uppercase;
 }
 
 
 .filter-legend {
     font-size: 17px;
-    line-height: 30px; 
+    line-height: 30px;
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -675,16 +678,37 @@ header {
 .filter-points,
 .radio-style {
     font-size: 15px;
-    line-height: 20px; 
+    line-height: 20px;
     text-transform: uppercase;
 }
 
 .form-button {
     font-size: 13px;
-    line-height: 18px; 
+    line-height: 18px;
     text-transform: uppercase;
 }
 
 .sorting-points__style {
-    list-style-type: none;   
+    list-style-type: none;
+}
+
+
+
+.pagination-item {
+    font-size: 13px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.pagination-list {
+    list-style-type: none;
+}
+
+
+
+
+
+.catalog-list {
+    list-style-type: none;
 }
