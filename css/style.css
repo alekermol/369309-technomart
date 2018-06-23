@@ -50,19 +50,26 @@ a {
 
 .search {
     flex: 0 0 270px;
-
+    
     display: flex;
 }
 
 .search__input {
     flex: 1 0 150px;
-
     background: transparent;
     border: 0;
 }
 
+.search__input::-webkit-input-placeholder { color:white; } {
+	
+}
+
 .search__input:focus {
     background-color: #ffffff;
+}
+
+.search__input:hover {
+    background-color: #212a3a;
 }
 
 .search-button {
@@ -118,6 +125,10 @@ a {
     display: flex;
     margin: 0;
     list-style-type: none;
+}
+
+.user-menu li {
+    text-transform: capitalize;
 }
 
 .main-header,
@@ -198,6 +209,7 @@ header {
     line-height: 23px;
     font-family: "Cuprum", Arial, sans-serif;
     width: 180px;
+    font-style: italic;
 }
 
 .phone-number {
@@ -246,6 +258,7 @@ header {
     font-weight: bold;
     line-height: 30px;
     font-family: "Cuprum", Arial, sans-serif;
+    color: white;
 }
 
 .products-item-mater {
@@ -266,13 +279,6 @@ header {
 
 .services-item-delivery {
     background-color: #ffc047;
-}
-
-.services li a,
-.products li a {
-    font-size: 14px;
-    line-height: 18px;
-    font-family: "Cuprum", Arial, sans-serif;
 }
 
 .stock {
@@ -342,11 +348,20 @@ header {
     font-family: "Cuprum", Arial, sans-serif;
 }
 
+.about-services h2 {
+    font-size: 30px;
+    line-height: 30px;
+    color: black;
+    font-family: "Cuprum", Arial, sans-serif;
+    text-transform: uppercase;
+}
+
 .about-services .list-of-services {
     font-size: 21px;
     line-height: 30px;
     font-weight: bold;
     font-family: "Cuprum", Arial, sans-serif;
+    list-style-type: none;
 }
 
 .about-services h2,
@@ -376,6 +391,7 @@ header {
     font-size: 18px;
     line-height: 20px;
     font-family: "Cuprum", Arial, sans-serif;
+    list-style-type: none; 
 }
 
 .footer-logo {
@@ -471,15 +487,7 @@ header {
     list-style: none;
 }
 
-/*
-.items {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 410px;
-    justify-content: center;
 
-}
-*/
 
 .products {
     display: flex;
@@ -562,6 +570,10 @@ header {
     justify-content: space-between;
 }
 
+.footer-navigator__wrapper a {
+    color: white;
+}
+
 .footer-products {
     display: flex;
     justify-content: space-between;
@@ -578,4 +590,55 @@ header {
 .footer-top__wrapper {
     display: flex;
     justify-content: space-between;
+}
+
+.products-item a,
+.services-item a, 
+.all_stocks a{
+    font-size: 14px;
+    line-height: 18px;
+    color: white;
+    font-family: "Cuprum", Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.link {
+    font-size: 14px;
+    line-height: 18px;
+    color: white;
+    font-family: "Cuprum", Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.link_user {
+    text-transform: capitalize;
+}
+
+.popular-button {
+    font-size: 30px;
+    line-height: 30px;
+    font-family: "Cuprum", Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.description-of-services li h3{
+    font-size: 36px;
+    line-height: 36px;
+    font-family: "Cuprum", Arial, sans-serif;
+    text-transform: uppercase;
+    color: #32425c;
+}
+.description-of-services li{
+   list-style-type: none; 
+}
+
+.user-services li {
+	list-style-type: none;
+}
+
+.user-services a{
+    font-size: 16px;
+    line-height: 18px;
+    font-family: "Cuprum", Arial, sans-serif;
+    text-transform: capitalize;
 }
