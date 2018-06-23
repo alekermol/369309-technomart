@@ -36,7 +36,7 @@ a {
 .logo__link {
     display: block;
     margin-bottom: -5px;
-    padding-top: 9px;
+    padding-top: 20px;
     padding-bottom: 9px;
 
     text-align: center;
@@ -385,6 +385,9 @@ header {
     background-color: #ee3643;
     color: white;
     font-family: "Cuprum", Arial, sans-serif;
+    width: 220px;
+    height: 63px;
+    
 }
 
 .main-footer .adress {
@@ -544,4 +547,28 @@ header {
 
 .back-phone {
     display: flex;
+}
+
+.footer-navigator li,
+.footer-products li {
+    list-style-type: none;
+} 
+
+.footer-navigator {
+    
+}
+
+.footer-navigator__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-products {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-adress__wrapper {
+    display: flex;
+    flex-direction: column;
 }
