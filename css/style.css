@@ -12,7 +12,7 @@ a {
 }
 
 .container {
-    width: 1200px;
+    width: 940px;
     margin: 0 auto;
 }
 
@@ -145,7 +145,6 @@ a {
 
 .main-navigator {
     min-height: 55px;
-    width: 1200px;
     margin: 0 auto;
 
 }
@@ -154,7 +153,6 @@ a {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    flex-basis: 940px;
     justify-content: space-around;
     list-style-type: none;
     background-color: #32425c;
@@ -208,6 +206,7 @@ header {
     font-size: 21px;
     line-height: 21px;
     font-family: "Cuprum", Arial, sans-serif;
+    border: 3px solid white;
 }
 
 .adress {
@@ -470,6 +469,7 @@ header {
     list-style: none;
 }
 
+/*
 .items {
     display: flex;
     flex-direction: column;
@@ -477,35 +477,62 @@ header {
     justify-content: center;
 
 }
+*/
 
 .products {
     display: flex;
+    justify-content: space-between;
     margin: 0;
+    padding: 0;
 }
 
 .products li {
     width: 300px;
     height: 120px;
     list-style-type: none;
-    margin: 10px;
 }
 
 .services {
     display: flex;
     flex-direction: column;
-    align-self: flex-end;
+    justify-content: space-between;
     margin: 0;
+    padding: 0;
 }
 
 .services li {
     width: 300px;
     height: 120px;
     list-style-type: none;
-    margin: 10px;
 }
 
 .stock {
     align-self: flex-start;
     width: 620px;
     height: 265px;
+}
+
+.items__wrapper {
+/*
+    display: flex;
+    flex-direction: column;
+*/
+}
+
+.stock-services__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.stock__wrapper p{
+    position: absolute;
+}
+
+.stock__wrapper h3{
+   position: absolute; 
+}
+
+.stock__wrapper a{
+   position: absolute; 
 }

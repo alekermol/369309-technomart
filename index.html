@@ -68,15 +68,17 @@
                 </div>
 
                 <nav class="main-navigator">
-                    <ul class="site-navigator">
-                        <li><a href="main.html">Главная</a></li>
-                        <li><a href="company.html">Компания</a></li>
-                        <li><a href="catalog.html">Каталог</a></li>
-                        <li><a href="news.html">Новости</a></li>
-                        <li><a href="special_offer.html">Спецпредложения</a></li>
-                        <li><a href="delivery.html">Доставка</a></li>
-                        <li><a href="contacts.html">Контакты</a></li>
-                    </ul>
+                    <div class="container">
+                        <ul class="site-navigator">
+                            <li><a href="main.html">Главная</a></li>
+                            <li><a href="company.html">Компания</a></li>
+                            <li><a href="catalog.html">Каталог</a></li>
+                            <li><a href="news.html">Новости</a></li>
+                            <li><a href="special_offer.html">Спецпредложения</a></li>
+                            <li><a href="delivery.html">Доставка</a></li>
+                            <li><a href="contacts.html">Контакты</a></li>
+                        </ul>
+                    </div>
                 </nav>
             </div>
         </div>
@@ -85,43 +87,48 @@
     <main class="container">
         <h1 class="visually-hidden">Техномарт - главная страница</h1>
         <section class="items">
-            <h2 class="visually-hidden">Категории товаров</h2>
-            <ul class="products">
-                <li class="products-item products-item-mater">
-                    <h3 class="products-name">Материалы</h3>
-                    <a href="materials.html">На любой вкус</a>
-                </li>
-                <li class="products-item products-item-instr">
-                    <h3 class="products-name">Инструменты</h3>
-                    <a href="instruments.html">На все случаи</a>
-                </li>
-                <li class="products-item products-item-technik">
-                    <h3 class="products-name">Техника</h3>
-                    <a href="equipment.html">Для стройки</a>
-                </li>
-            </ul>
-            <ul class="services">
-                <li class="services-item services-item-sale">
-                    <h3 class="products-name">Скидки 50%</h3>
-                    <a href="sales.html">На 350 товаров</a>
-                </li>
-                <li class="services-item services-item-delivery">
-                    <h3 class="products-name">Доставка</h3>
-                    <a href="delivery.html">Бесплатно</a>
-                </li>
-            </ul>
-            <article class="stock">
-                <h3>Дрели</h3>
-                <img src="img/slider_1.jpg" width="620" height="266" alt="Мужик с дрелью">
-                <p>Соседям на радость!</p>
-                <a href="catalog.html" class="link">Открыть каталог</a>
-            </article>
-            <article class="stock visually-hidden">
-                <h3>Перфораторы</h3>
-                <img src="img/slider_2.jpg" width="620" height="266" alt="Мужик с перфоратором">
-                <p>Настоящие мужские игрушки.</p>
-                <a href="catalog.html" class="link">Открыть каталог</a>
-            </article>
+            <div class="container items__wrapper">
+                <h2 class="visually-hidden">Категории товаров</h2>
+                <ul class="products">
+                    <li class="products-item products-item-mater">
+                        <h3 class="products-name">Материалы</h3>
+                        <a href="materials.html">На любой вкус</a>
+                    </li>
+                    <li class="products-item products-item-instr">
+                        <h3 class="products-name">Инструменты</h3>
+                        <a href="instruments.html">На все случаи</a>
+                    </li>
+                    <li class="products-item products-item-technik">
+                        <h3 class="products-name">Техника</h3>
+                        <a href="equipment.html">Для стройки</a>
+                    </li>
+                </ul>
+                <div class="stock-services__wrapper">
+                    <article class="stock stock__wrapper">
+                        <h3>Дрели</h3>
+                        <p>Соседям на радость!</p>
+                        <a href="catalog.html" class="link">Открыть каталог</a>
+                        <img src="img/slider_1.jpg" width="620" height="266" alt="Мужик с дрелью">
+                    </article>
+                    <article class="stock stock__wrapper visually-hidden">
+                        <h3>Перфораторы</h3>
+                        <p>Настоящие мужские игрушки.</p>
+                        <a href="catalog.html" class="link">Открыть каталог</a>
+                        <img src="img/slider_2.jpg" width="620" height="266" alt="Мужик с перфоратором">
+                    </article>
+
+                    <ul class="services">
+                        <li class="services-item services-item-sale">
+                            <h3 class="products-name">Скидки 50%</h3>
+                            <a href="sales.html">На 350 товаров</a>
+                        </li>
+                        <li class="services-item services-item-delivery">
+                            <h3 class="products-name">Доставка</h3>
+                            <a href="delivery.html">Бесплатно</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </section>
 
         <section class="popular-products">
