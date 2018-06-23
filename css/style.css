@@ -1,8 +1,9 @@
 body {
     color: black;
     background-color: white;
-    font-size: 16px;
-    font-family: "Cuprum", Arial, sans-serif;
+    font-size: 13px;
+    font-family: "PT Sans", "Arial", serif;
+    /*    font-family: "Cuprum", Arial, sans-serif;*/
     line-height: 24px;
 }
 
@@ -22,11 +23,8 @@ a {
     margin-bottom: 60px;
     flex-basis: 320px;
 }
-    
-.top-header {
-    display: flex;
-    flex-direction: row;
-}
+
+.top-header {}
 
 .user-menu-div {
     display: flex;
@@ -73,9 +71,6 @@ a {
     overflow: hidden;
 }
 
-.top-header {
-    background-color: #293449;
-}
 
 .logo {
     font-size: 24px;
@@ -90,24 +85,28 @@ header {
     color: #ee3643;
     font-size: 16px;
     line-height: 23px;
+    font-family: "Cuprum", Arial, sans-serif;
 }
 
 .phone-number {
     color: #ee3643;
     font-size: 21px;
     line-height: 21px;
+    font-family: "Cuprum", Arial, sans-serif;
 }
 
 .adress {
     font-size: 14px;
+    font-family: "Cuprum", Arial, sans-serif;
 }
 
 .top-button a,
 .search a,
-.feedback-ordering a{
+.feedback-ordering a {
     line-height: 18px;
     font-size: 17px;
     color: white;
+    font-family: "Cuprum", Arial, sans-serif;
 }
 
 .feedback-ordering {
@@ -118,6 +117,7 @@ header {
     color: black;
     font-size: 21px;
     background-color: white;
+    font-family: "Cuprum", Arial, sans-serif;
 }
 
 .user-services a {
@@ -125,12 +125,14 @@ header {
     font-size: 16px;
     color: #32425c;
     text-decoration: underline;
+    font-family: "Cuprum", Arial, sans-serif;
 }
 
 .products-name {
     font-size: 24px;
     font-weight: bold;
     line-height: 30px;
+    font-family: "Cuprum", Arial, sans-serif;
 }
 
 .products-item-mater {
@@ -157,6 +159,7 @@ header {
 .products li a {
     font-size: 14px;
     line-height: 18px;
+    font-family: "Cuprum", Arial, sans-serif;
 }
 
 .stock {
@@ -167,11 +170,13 @@ header {
 .stock h3 {
     font-size: 36px;
     font-weight: bold;
+    font-family: "Cuprum", Arial, sans-serif;
 }
 
 .stock p {
     font-size: 18px;
     line-height: 24px;
+    font-family: "Cuprum", Arial, sans-serif;
 }
 
 .stock a,
@@ -182,6 +187,7 @@ header {
     font-size: 14px;
     line-height: 18px;
     background-color: #ee3643;
+    font-family: "Cuprum", Arial, sans-serif;
 }
 
 .popular-products div:nth-child(1),
@@ -190,6 +196,7 @@ header {
     color: #32425c;
     font-size: 30px;
     line-height: 30px;
+    font-family: "Cuprum", Arial, sans-serif;
 }
 
 .popular-products h3 {
@@ -197,6 +204,7 @@ header {
     font-size: 18px;
     line-height: 20px;
     font-weight: bold;
+    font-family: "Cuprum", Arial, sans-serif;
 }
 
 .popular-products del {
@@ -204,6 +212,7 @@ header {
     font-size: 17px;
     line-height: 18px;
     font-weight: bold;
+    font-family: "Cuprum", Arial, sans-serif;
 }
 
 .popular-products b:last-child {
@@ -212,16 +221,19 @@ header {
     line-height: 18px;
     font-weight: bold;
     background-color: #ee3643;
+    font-family: "Cuprum", Arial, sans-serif;
 }
 
 .about-services {
     background-color: #f4f7f9;
+    font-family: "Cuprum", Arial, sans-serif;
 }
 
 .about-services .list-of-services {
     font-size: 21px;
     line-height: 30px;
     font-weight: bold;
+    font-family: "Cuprum", Arial, sans-serif;
 }
 
 .about-services h2,
@@ -230,12 +242,12 @@ header {
 .about-perforators {
     font-size: 30px;
     line-height: 30px;
+    font-family: "Cuprum", Arial, sans-serif;
 }
 
 .about-services p,
 .about-company p .contacts p,
 .about-perforators p {
-    font-family: "PT Sans", "Arial", serif;
     font-size: 13px;
     line-height: 24px;
 }
@@ -244,11 +256,13 @@ header {
     font-size: 13px;
     line-height: 24px;
     color: #32425c;
+    font-family: "Cuprum", Arial, sans-serif;
 }
 
 .about-company-items {
     font-size: 18px;
     line-height: 20px;
+    font-family: "Cuprum", Arial, sans-serif;
 }
 
 .footer-logo {
@@ -256,12 +270,14 @@ header {
     line-height: 30px;
     background-color: #ee3643;
     color: white;
+    font-family: "Cuprum", Arial, sans-serif;
 }
 
 .main-footer .adress {
     font-size: 18px;
     line-height: 24px;
     color: #f3f7f9;
+    font-family: "Cuprum", Arial, sans-serif;
 }
 
 .footer-top {
@@ -273,6 +289,7 @@ header {
 .footer-products a {
     font-size: 18px;
     line-height: 24px;
+    font-family: "Cuprum", Arial, sans-serif;
 }
 
 .footer-products a {
@@ -287,6 +304,7 @@ header {
     font-size: 16px;
     line-height: 18px;
     color: white;
+    font-family: "Cuprum", Arial, sans-serif;
 }
 
 .footer-bottom a {
@@ -296,7 +314,6 @@ header {
 .filters h2,
 .sorting h2,
 .sorting ul:first-child {
-    font-family: "PT Sans", "Arial", serif;
     font-size: 13px;
     line-height: 18px;
 }
@@ -329,13 +346,13 @@ header {
 
 
 .footer-social {
-  display: flex;
-  justify-content: space-between;
-  width: 141px;
-  margin: 0 auto;
-  padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 141px;
+    margin: 0 auto;
+    padding: 0;
 
-  list-style: none;
+    list-style: none;
 }
 
 .items {
@@ -359,7 +376,7 @@ header {
 }
 
 .services {
-    display: flex; 
+    display: flex;
     flex-direction: column;
     align-self: flex-end;
     margin: 0;
@@ -367,7 +384,7 @@ header {
 
 .services li {
     width: 300px;
-     height: 120px;
+    height: 120px;
     list-style-type: none;
     margin: 10px;
 }
