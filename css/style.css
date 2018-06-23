@@ -712,3 +712,32 @@ header {
 .catalog-list {
     list-style-type: none;
 }
+
+.catalog-list__wrapper {
+    display: flex;
+    padding: 0px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.catalog-list__wrapper b {
+    position: absolute;
+}
+
+.manufacturer {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0px;
+    justify-content: space-between;
+}
+
+.manufacturer li {
+	margin: 0px;
+    min-width: 220px;
+    min-height: 145px;
+}
+
+.filters {
+    display: flex;
+}
