@@ -695,11 +695,19 @@ header {
 
 
 .pagination-item {
+    display: inline-block;
+    min-height: 20px;
+    min-width: 20px;
+    vertical-align: middle;
+    text-align: center;
     font-size: 13px;
     line-height: 24px;
     text-transform: uppercase;
     color: black;
-    
+    padding: 4px 6px;
+    margin: 5px;
+    border: 1px solid #e5e5e5;
+    border-radius: 2px;
 }
 
 .pagination-list {
@@ -708,10 +716,9 @@ header {
 
 .pagination-list li {
 	display: inline-block;
-    width: 38px;
+    min-width: 38px;
     height: 38px;
     background-color: aqua;
-    align-items: center;
 }
 
 .catalog-list {
@@ -774,4 +781,14 @@ header {
 
 .sorting__wrapper {
     display: flex;
+}
+
+.pagination-item-current {
+    background-color: #ee3643;
+    color: white;
+}
+
+.paginator-next {
+    padding-left: 30px;
+    padding-right: 30px;
 }
