@@ -699,10 +699,19 @@ header {
     line-height: 24px;
     text-transform: uppercase;
     color: black;
+    
 }
 
 .pagination-list {
     list-style-type: none;
+}
+
+.pagination-list li {
+	display: inline-block;
+    width: 38px;
+    height: 38px;
+    background-color: aqua;
+    align-items: center;
 }
 
 .catalog-list {
