@@ -758,3 +758,11 @@ header {
     padding-bottom: 32px;
     padding-left: 30px;
 }
+
+.filters-catalog__wrapper {
+    display: flex;
+}
+
+.sorting__wrapper {
+    display: flex;
+}
