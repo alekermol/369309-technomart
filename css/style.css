@@ -572,6 +572,8 @@ header {
 .footer-navigator__wrapper {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 0px;
+    padding-left: 0;
 }
 
 .footer-navigator__wrapper a {
@@ -589,11 +591,13 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    flex: 0 0 550px;
 }
 
 .footer-top__wrapper {
     display: flex;
     justify-content: space-between;
+
 }
 
 .products-item a,
@@ -791,4 +795,33 @@ header {
 .paginator-next {
     padding-left: 30px;
     padding-right: 30px;
+}
+
+.logo-adress__wrapper {
+        flex: 0 0 330px;
+}
+
+.social-button {
+    background-color: #212a3a;
+    border: 1px solid #212a3a;
+    border-radius: 20px;
+    padding: 10px;
+    padding-bottom: 3px;
+    margin-right: 7px;
+}
+
+.about-company-contacts__wrapper {
+    display: flex;
+}
+
+.link-in-main {
+    align-items: center;
+    min-height: 38px;
+    font-size: 14px;
+    line-height: 18px;
+    color: white;
+    font-family: "Cuprum", Arial, sans-serif;
+    text-transform: uppercase;
+    padding: 10px 3%;
+    border-radius: 3px;
 }
