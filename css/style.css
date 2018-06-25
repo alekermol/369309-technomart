@@ -58,6 +58,9 @@ a {
     flex: 1 0 150px;
     background: transparent;
     border: 0;
+    font-size: 17px;
+    line-height: 18px;
+    font-family: "Cuprum", Arial, sans-serif;
 }
 
 .search__input::-webkit-input-placeholder {
@@ -174,6 +177,7 @@ a {
     display: block;
     color: white;
     vertical-align: middle;
+    font-family: "Cuprum", Arial, sans-serif;
     font-size: 17px;
     line-height: 17px;
     padding-bottom: 20px;
@@ -359,12 +363,30 @@ header {
     text-transform: uppercase;
 }
 
+.about-perforators h2 {
+    font-size: 30px;
+    line-height: 30px;
+    color: black;
+    font-family: "Cuprum", Arial, sans-serif;
+    text-transform: uppercase;
+}
+
 .about-services .list-of-services {
     font-size: 21px;
     line-height: 30px;
     font-weight: bold;
     font-family: "Cuprum", Arial, sans-serif;
     list-style-type: none;
+    
+}
+
+.list-of-services a {
+    font-size: 21px;
+    line-height: 30px;
+    font-weight: bold;
+    font-family: "Cuprum", Arial, sans-serif;
+    list-style-type: none;
+    color: #32425c;
 }
 
 .about-services h2,
@@ -381,13 +403,6 @@ header {
 .about-perforators p {
     font-size: 13px;
     line-height: 24px;
-}
-
-.list-of-services a {
-    font-size: 13px;
-    line-height: 24px;
-    color: #32425c;
-    font-family: "Cuprum", Arial, sans-serif;
 }
 
 .about-company-items {
@@ -654,10 +669,9 @@ header {
 
 .breadcrumbs a,
 .breadcrumbs-current {
-    font-size: 21px;
-    line-height: 21px;
+    font-size: 13px;
+    line-height: 18px;
     color: black;
-    font-family: "Cuprum", Arial, sans-serif;
     text-transform: uppercase;
 }
 
