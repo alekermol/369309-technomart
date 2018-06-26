@@ -136,20 +136,12 @@ a {
     text-transform: capitalize;
 }
 
-.main-header,
-.container,
-.main-footer {}
-
 .main-header {
     margin-bottom: 60px;
     flex-basis: 320px;
     background-color: #293449;
 }
 
-.top-header {
-    /*    display: flex;
-    flex-direction: row;*/
-}
 
 .user-menu-div {
     display: flex;
@@ -377,23 +369,7 @@ header {
     font-weight: bold;
     font-family: "Cuprum", Arial, sans-serif;
     list-style-type: none;
-
-}
-
-.list-of-services li {
-    padding: 20px 0px;
-    padding-left: 20px;
-    background-color: #32425c;
-}
-
-.list-of-services a {
-    font-size: 21px;
-    line-height: 30px;
-    font-weight: bold;
-    font-family: "Cuprum", Arial, sans-serif;
-    list-style-type: none;
-    color: #ffffff;
-    background-color: #32425c;
+    padding: 0px;
 }
 
 .about-services h2,
@@ -427,7 +403,7 @@ header {
     font-family: "Cuprum", Arial, sans-serif;
     width: 220px;
     height: 63px;
-
+    margin: 0px;
 }
 
 .main-footer .adress {
@@ -582,6 +558,8 @@ header {
 
 .back-phone {
     display: flex;
+    flex-basis: 300px;
+    justify-content: space-between;
 }
 
 .footer-navigator li,
@@ -833,6 +811,7 @@ header {
 
 .about-company-contacts__wrapper {
     display: flex;
+    margin-bottom: 85px;
 }
 
 .link-in-main {
@@ -851,8 +830,32 @@ header {
     display: flex;
 }
 
-.services-point a, 
+
 .services-point {
+    list-style-type: none;
+    background-color: #32425c;
+    padding: 20px 0px;
+    padding-left: 20px;
+    padding-right: auto;
+    min-width: 240px;
+}
+
+.services-point a {
+    color: #ffffff;
+    font-size: 21px;
+    line-height: 30px;
+    font-weight: bold;
+    font-family: "Cuprum", Arial, sans-serif;
+}
+
+.services-point-on {
+    background-color: white;
+}
+
+.services-point-on a {
     color: #32425c;
-    background-color: #ffffff;
+}
+
+.about-perforators {
+    margin-bottom: 85px;
 }
