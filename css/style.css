@@ -294,6 +294,7 @@ header {
     font-family: "Cuprum", Arial, sans-serif;
 }
 
+/*
 .stock a,
 .popular-products div a,
 .popular-manufacturera div a,
@@ -304,6 +305,7 @@ header {
     background-color: #ee3643;
     font-family: "Cuprum", Arial, sans-serif;
 }
+*/
 
 .popular-products div:nth-child(1),
 .popular-manufacturer div:nth-child(1) {
@@ -815,8 +817,8 @@ header {
 }
 
 .link-in-main {
+    align-self: center;
     align-items: center;
-    min-height: 38px;
     font-size: 14px;
     line-height: 18px;
     color: white;
@@ -824,6 +826,7 @@ header {
     text-transform: uppercase;
     padding: 10px 3%;
     border-radius: 3px;
+    background-color: #ee3643;
 }
 
 .list-description-of-services {
@@ -858,4 +861,11 @@ header {
 
 .about-perforators {
     margin-bottom: 85px;
+}
+
+.popular-top {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 28px;
+    padding-right: 28px;
 }
