@@ -256,6 +256,10 @@ header {
     line-height: 30px;
     font-family: "Cuprum", Arial, sans-serif;
     color: white;
+    position: absolute;
+    top: 13px;
+    left: 25px;
+    margin: 0px;
 }
 
 .products-item-mater {
@@ -892,9 +896,7 @@ header {
     position: relative;
 }
 
-.stock_h3 {
 
-}
 
 .manufacturer-link img {
     object-fit: contain;
@@ -926,4 +928,24 @@ header {
     position: absolute;
     bottom: 27px;
     right: 296px;
+}
+
+.products-item {
+    position: relative;
+}
+
+.services-item {
+    position: relative;
+}
+
+.prod-serv-link {
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0.3);
+    width: 135px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: center;
+    bottom: 22px;
+    left: 25px;
+    border-radius: 6px;
 }
