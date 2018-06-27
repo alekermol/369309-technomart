@@ -134,6 +134,7 @@ a {
 
 .user-menu li {
     text-transform: capitalize;
+    
 }
 
 .main-header {
@@ -539,19 +540,9 @@ header {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    overflow: hidden;
 }
 
-.stock__wrapper p {
-    position: absolute;
-}
-
-.stock__wrapper h3 {
-    position: absolute;
-}
-
-.stock__wrapper a {
-    position: absolute;
-}
 
 .footer-bottom__wrapper {
     display: flex;
@@ -753,6 +744,9 @@ header {
     margin: 0px;
     min-width: 220px;
     min-height: 145px;
+    border: 1px solid #eaeaea;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .filters {
@@ -868,4 +862,27 @@ header {
     justify-content: space-between;
     padding-left: 28px;
     padding-right: 28px;
+}
+
+.manufacturer-link {
+
+}
+
+.link-in-main__wrapper {
+    position: relative;
+    top: 204px;
+    left: 25px;
+}
+
+.stock__wrapper {
+    margin-top: -24px;
+}
+
+.stock_h3 {
+
+}
+
+.manufacturer-link img {
+    object-fit: contain;
+    object-position: center;
 }

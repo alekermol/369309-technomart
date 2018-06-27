@@ -141,6 +141,11 @@ img {
   border-style: none;
 }
 
+.manufacturer-link img {
+    object-fit: contain;
+    onject-position: center;
+}
+
 /* Forms
    ========================================================================== */
 
