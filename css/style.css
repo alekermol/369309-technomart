@@ -285,14 +285,31 @@ header {
 
 .stock h3 {
     font-size: 36px;
+    line-height: 36px;
     font-weight: bold;
     font-family: "Cuprum", Arial, sans-serif;
+}
+
+.stock__wrapper h3 {
+    position: absolute;
+    top: 5px;
+    left: 25px;
+    margin: 0px;
+    margin-top: 10px;
 }
 
 .stock p {
     font-size: 18px;
     line-height: 24px;
     font-family: "Cuprum", Arial, sans-serif;
+}
+
+.stock__wrapper p {
+    position: absolute;
+    top: 43px;
+    left: 25px;
+    margin: 0px;
+    margin-top: 10px;
 }
 
 /*
@@ -530,10 +547,7 @@ header {
 }
 
 .items__wrapper {
-    /*
-    display: flex;
-    flex-direction: column;
-*/
+    margin-bottom: 52px;
 }
 
 .stock-services__wrapper {
@@ -868,14 +882,14 @@ header {
 
 }
 
-.link-in-main__wrapper {
-    position: relative;
+.stock__wrapper a{
+    position: absolute;
     top: 204px;
     left: 25px;
 }
 
 .stock__wrapper {
-    margin-top: -24px;
+    position: relative;
 }
 
 .stock_h3 {
@@ -885,4 +899,31 @@ header {
 .manufacturer-link img {
     object-fit: contain;
     object-position: center;
+}
+.stock-button {
+    position: absolute;
+    top: 110px;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.stock-button-left {
+    left: 25px;
+}
+
+.stock-button-right {
+    right: 25px;
+}
+
+.radio-off {
+    position: absolute;
+    bottom: 27px;
+    left: 296px;
+}
+
+.radio-on {
+    position: absolute;
+    bottom: 27px;
+    right: 296px;
 }
