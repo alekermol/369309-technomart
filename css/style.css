@@ -964,7 +964,8 @@ header {
 }
 .stock-button {
     position: absolute;
-    top: 110px;
+    top: 50%;
+    transform: translateY(-50%);
     background-color: Transparent;
     background-repeat: no-repeat;
     border: none;
@@ -1104,3 +1105,5 @@ header {
 .order-link {
     padding: 11px 20px;
 }
+
+
