@@ -42,14 +42,14 @@ a {
     text-align: center;
     color: #ffffff;
     text-transform: uppercase;
-
+    padding: 9px 20px;
     background-color: #ee3643;
     border-bottom: 5px solid #9c2933;
 }
 
 
 .search {
-    flex: 0 0 270px;
+    flex: 0 0 250px;
 
     display: flex;
 }
@@ -95,8 +95,14 @@ a {
 
 .top-header__bookmark-link {
     display: block;
-    padding: 12px 20px 12px 40px;
+    padding: 11px 26px 11px 26px;
 }
+
+.top-header__bookmark-link::before {
+   content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16"><path fill="#6a7180" d="M14 15c0 .55-.368.741-.818.426l-5.363-3.765c-.45-.315-1.187-.315-1.637 0L.818 15.426C.368 15.741 0 15.55 0 15V1c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v14z"/></svg>');
+    margin-right: 14px;
+}
+
 
 .top-button {
     margin-top: 0;
@@ -105,17 +111,22 @@ a {
 
 .top-header__cart-link {
     display: block;
-    padding: 12px 40px 12px 40px;
+    padding: 11px 26px 12px 26px;
+}
+
+.top-header__cart-link::before {
+    content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15"><circle fill="#6a7180" cx="4.5" cy="13.5" r="1.5"/><circle fill="#6a7180" cx="12.5" cy="13.5" r="1.5"/><path fill="#6a7180" d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z"/></svg>');
+    margin-right: 14px;
 }
 
 
 .feedback-ordering {
     margin: 0;
+    background-color: #63a63e;
 }
 
 .feedback-ordering a {
     display: block;
-    padding: 12px 20px;
 }
 
 
@@ -239,9 +250,7 @@ header {
     font-family: "Cuprum", Arial, sans-serif;
 }
 
-.feedback-ordering {
-    background-color: #63a63e;
-}
+
 
 .user-menu a {
     color: black;
@@ -1078,4 +1087,20 @@ header {
 .breadcrumbs-main-arrow::after {
     content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12"><path fill="#C1C6CE" d="M7.237 5.642L1.729.133a.506.506 0 1 0-.716.716L6.163 6l-5.151 5.15a.507.507 0 0 0 .716.717l5.509-5.509a.504.504 0 0 0 0-.716z"/></svg>');
     margin: 10px;
+}
+
+.top-header__cart-link__full {
+    background-color: #ee3643;
+}
+
+.top-header__cart-link__full::before {
+	content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15"><circle fill="#f3737c" cx="4.5" cy="13.5" r="1.5"/><circle fill="#f3737c" cx="12.5" cy="13.5" r="1.5"/><path fill="#f3737c" d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z"/></svg>');
+}
+
+.top-header__cart__full {
+    background-color: #ee3643;
+}
+
+.order-link {
+    padding: 11px 20px;
 }
