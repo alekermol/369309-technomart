@@ -99,11 +99,11 @@
             <section class="filters">
                 <h2 class="filters-h2__style">Фильтр:</h2>
                 <form class="filter" action="https://echo.htmlacademy.ru">
-                    <fieldset>
+                    <fieldset class="filter-style">
                         <legend class="filter-legend">Цена</legend>
                         <input type="range" min="0" max="30000" step="10">
                     </fieldset>
-                    <fieldset>
+                    <fieldset class="filter-style">
                         <legend class="filter-legend">Производители:</legend>
                         <div class="filter-manufacturers">
                             <label for="manufacturers-bosch" class="filter-points"><input type="checkbox" name="manufacturers" id="manufacturers-bosch"  class="manufacturers-checkbox" checked><span></span><span class="manufacturers-bosch-span">Bosch</span></label>
@@ -121,13 +121,13 @@
                             <label for="manufacturers-hitachi" class="filter-points"><input type="checkbox" name="manufacturers" id="manufacturers-hitachi" class="manufacturers-checkbox" checked><span></span><span class="manufacturers-bosch-span">Hitachi</span></label>
                         </div>
                     </fieldset>
-                    <fieldset>
+                    <fieldset class="filter-style-radio-button">
                         <legend class="filter-legend">Питание:</legend>
                         <div class="filter-power">
-                                 <label for="radio-battery" class="radio-style"><input type="radio" name="power" id="radio-battery" value="b" checked class="filter-power-radio"><span class="filter-power"></span><span class="radio-battery-span">Аккумуляторные</span></label>
+                            <label for="radio-battery" class="radio-style"><input type="radio" name="power" id="radio-battery" value="b" checked class="filter-power-radio"><span class="filter-power"></span><span class="radio-battery-span">Аккумуляторные</span></label>
                         </div>
                         <div class="filter-power">
-                                 <label for="radio-chain" class="radio-style"><input type="radio" name="power" id="radio-chain" value="b" class="filter-power-radio"><span class="filter-power"></span><span class="radio-battery-span">Сетевые</span></label>
+                            <label for="radio-chain" class="radio-style"><input type="radio" name="power" id="radio-chain" value="b" class="filter-power-radio"><span class="filter-power"></span><span class="radio-battery-span">Сетевые</span></label>
                         </div>
                     </fieldset>
                     <button class="form-button">Показать</button>
