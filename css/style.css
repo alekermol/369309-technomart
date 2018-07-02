@@ -112,7 +112,7 @@ a {
 }
 
 .top-header__bookmark-link::before {
-   content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16"><path fill="#6a7180" d="M14 15c0 .55-.368.741-.818.426l-5.363-3.765c-.45-.315-1.187-.315-1.637 0L.818 15.426C.368 15.741 0 15.55 0 15V1c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v14z"/></svg>');
+    content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16"><path fill="#6a7180" d="M14 15c0 .55-.368.741-.818.426l-5.363-3.765c-.45-.315-1.187-.315-1.637 0L.818 15.426C.368 15.741 0 15.55 0 15V1c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v14z"/></svg>');
     margin-right: 14px;
 }
 
@@ -162,7 +162,7 @@ a {
 
 .user-menu li {
     text-transform: capitalize;
-    
+
 }
 
 .catalog-list__wrapper li {
@@ -344,11 +344,11 @@ header {
 }
 
 .services-item-delivery::after {
-   position: absolute;
+    position: absolute;
     content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="78" height="63" viewBox="0 0 78 63"><g fill="#FFF"><circle cx="25.983" cy="55.5" r="7.5"/><circle cx="59.982" cy="55.5" r="7.5"/><path d="M64 0H11.062c-3.188 0-3 3.125-3 3.125V8H3.469a3.469 3.469 0 1 0 0 6.938l28.085 1.84.196.043c-.761 3.197-8.938 3.805-8.938 3.805l-8.31.428H5.446a3.375 3.375 0 1 0 0 6.75l23.656 1.254c-.807 3.153-6.29 3.756-6.29 3.756l-14.751.76v15.615c0 3.188 2.564 3.812 2.564 3.812h2.099c1.173-6.261 6.659-11 13.259-11s12.085 4.739 13.259 11h7.404c1.174-6.261 6.66-11 13.26-11 6.601 0 12.086 4.739 13.26 11h1.709C77.812 53 78 48.938 78 48.938v-15.25C78 14.812 64 0 64 0zM52 23.938v-15h10.062l5.75 15H52z"/></g></svg>');
     top: 32px;
     right: 42px;
-    z-index: 1; 
+    z-index: 1;
 }
 
 .stock {
@@ -782,23 +782,36 @@ header {
     padding-bottom: 10px;
 }
 
+.radio-style {
+    width: 25px;
+    /* Ширина рисунка */
+    height: 25px;
+    /* Высота рисунка */
+    position: relative;
+    background-color: white;
+}
+
 .filter-points {
-    width: 23px; /* Ширина рисунка */
-    height: 23px; /* Высота рисунка */
+    width: 23px;
+    /* Ширина рисунка */
+    height: 23px;
+    /* Высота рисунка */
     position: relative;
     background-color: white;
 }
 
 input[type="checkbox"] + span {
- position: absolute;
- left: 0; top: 0;
- width: 100%; height: 100%;
- background: url(../img/checkbox-on.svg) no-repeat;
- cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../img/checkbox-on.svg) no-repeat;
+    cursor: pointer;
 }
 
-input[type="checkbox"]:checked + span  	{
- background: url(../img/checkbox-off.svg) no-repeat;
+input[type="checkbox"]:checked + span {
+    background: url(../img/checkbox-off.svg) no-repeat;
 }
 
 
@@ -994,11 +1007,9 @@ input[type="checkbox"]:checked + span  	{
     padding-right: 28px;
 }
 
-.manufacturer-link {
+.manufacturer-link {}
 
-}
-
-.stock__wrapper a{
+.stock__wrapper a {
     position: absolute;
     top: 204px;
     left: 25px;
@@ -1014,6 +1025,7 @@ input[type="checkbox"]:checked + span  	{
     object-fit: contain;
     object-position: center;
 }
+
 .stock-button {
     position: absolute;
     top: 50%;
@@ -1079,7 +1091,7 @@ input[type="checkbox"]:checked + span  	{
 
 .link-user-menu-login::before {
     content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17"><path fill="#c5c5c5" d="M14.875 8.5L6 0v6H0v5h6v6z"/><path fill="#c5c5c5" d="M16.986 15.01h-5.027V17h5.027c2.178 0 3.004-1.81 3.029-3.026V3.028C19.99 1.811 19.164 0 16.986 0h-5.027v1.99h5.027c.839 0 .992.681 1.01 1.057v10.904c-.017.376-.171 1.059-1.01 1.059z"/></svg>');
-    padding-right: 16px;    
+    padding-right: 16px;
 }
 
 
@@ -1151,7 +1163,7 @@ input[type="checkbox"]:checked + span  	{
 }
 
 .top-header__cart-link__full::before {
-	content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15"><circle fill="#f3737c" cx="4.5" cy="13.5" r="1.5"/><circle fill="#f3737c" cx="12.5" cy="13.5" r="1.5"/><path fill="#f3737c" d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z"/></svg>');
+    content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15"><circle fill="#f3737c" cx="4.5" cy="13.5" r="1.5"/><circle fill="#f3737c" cx="12.5" cy="13.5" r="1.5"/><path fill="#f3737c" d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z"/></svg>');
 }
 
 .top-header__cart__full {
@@ -1164,8 +1176,7 @@ input[type="checkbox"]:checked + span  	{
 
 
 
-.user-menu-user {
-}
+.user-menu-user {}
 
 .filter-manufacturers {
     margin-bottom: 17px;
@@ -1194,6 +1205,7 @@ input[type="checkbox"]:checked + span  	{
     display: block;
     width: 250px;
 }
+
 .description-of-services-point-guarcantee {
     background-color: #f4f7f9;
     background-image: url(../img/garanty.png);
@@ -1215,11 +1227,38 @@ input[type="checkbox"]:checked + span  	{
 
 
 .checkbox-custom {
-    position: relative;  
-    width: 20px;             /* Обязательно задаем ширину */
-	height: 20px;  
+    position: relative;
+    width: 20px;
+    /* Обязательно задаем ширину */
+    height: 20px;
 }
 
 .manufacturers-bosch-span {
     margin-left: 20px;
+}
+
+.radio-battery-span {
+    margin-left: 20px;
+}
+
+.filter-power-radio {
+    opacity: 0;
+}
+
+input[type="radio"] + span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../img/radio-off.svg) no-repeat;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked + span {
+    background: url(../img/radio-on.svg) no-repeat;
+}
+
+.filter-power {
+    margin-bottom: 10px;
 }
