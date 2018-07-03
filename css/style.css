@@ -580,6 +580,27 @@ header {
     color: #ffd180;
 }
 
+.footer-products a:hover,
+.footer-navigator__wrapper a:hover {
+    text-decoration: underline;
+}
+
+.footer-products a:active,
+.footer-navigator__wrapper a:active {
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+
+.footer-contacts a:hover {
+    text-decoration: underline;
+}
+.footer-contacts a:active {
+    color: #ee3643;
+    text-decoration: none;
+}
+
+
 .footer-bottom {
     background-color: #293449;
 }
@@ -1011,6 +1032,15 @@ input[type="checkbox"]:checked + span {
     padding-bottom: 3px;
     margin-right: 7px;
 }
+
+.social-button:hover {
+    background-color: #ee3643;
+}
+
+.social-button:active {
+    background-color: #ee3643;
+}
+
 
 .about-company-contacts__wrapper {
     display: flex;
