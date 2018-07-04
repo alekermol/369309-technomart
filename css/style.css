@@ -1608,7 +1608,7 @@ input[type="radio"]:checked + span {
 
 .hidden-items {
     position: absolute;
-    width: 180px;
+    display: inline-block;
     min-height: 100px;
     background-color: white;
 }
