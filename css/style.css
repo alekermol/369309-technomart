@@ -33,12 +33,14 @@ a {
     font-size: 24px;
 }
 
-.logo__link:hover {
+.logo__link:hover,
+.footer-logo__link:hover {
     background-color: #ca2c37;
     border-bottom-color: #9a212a;
 }
 
-.logo__link:active {
+.logo__link:active,
+.footer-logo__link:active {
     background-color: #ba2732;
     border-bottom-color: #8e1e26;
 }
@@ -521,8 +523,8 @@ header {
 }
 
 .about-services {
-    background-color: #f4f7f9;
     font-family: "Cuprum", Arial, sans-serif;
+    padding-top: 70px;
 }
 
 .about-services h2 {
@@ -1165,6 +1167,7 @@ input[type="checkbox"]:checked + span {
 
 .about-perforators {
     margin-bottom: 85px;
+    padding-top: 70px;
 }
 
 .popular-top {
@@ -1296,6 +1299,10 @@ input[type="checkbox"]:checked + span {
     border: 1px solid #eaeaea;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.catalog-item__wrapper:hover {
+    box-shadow:  0 0 10px 5px #ccc;
 }
 
 .catalog-item__wrapper h3 {
@@ -1510,4 +1517,16 @@ input[type="radio"]:checked + span {
     margin-left: 50px;
     margin-bottom: 0px;
     margin-top: 0px;
+}
+
+.container-2 {
+    background-color: #f4f8fa;
+}
+
+.catalog {
+    padding-bottom: 70px;
+}
+
+.popular-manufacturer {
+    padding-bottom: 70px;
 }
