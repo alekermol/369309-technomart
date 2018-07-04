@@ -321,7 +321,7 @@ header {
     font-family: "Cuprum", Arial, sans-serif;
     border: 3px solid white;
     padding: 6px;
-    margin-bottom: 0px;
+    margin-bottom: 7px;
     margin-top: 0px;
 }
 
@@ -573,6 +573,20 @@ header {
     line-height: 20px;
     font-family: "Cuprum", Arial, sans-serif;
     list-style-type: none;
+    padding-left: 0px;
+}
+
+.about-company-items li {
+    margin-bottom: 11px;
+}
+
+.about-company-items li:before {
+    content: ' ';
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-right: 7px;
+    border: 1px solid #ee3643;
+    width: 25px;
 }
 
 .footer-logo {
@@ -1299,6 +1313,7 @@ input[type="checkbox"]:checked + span {
     border: 1px solid #eaeaea;
     align-items: center;
     flex-wrap: wrap;
+    position: relative
 }
 
 .catalog-item__wrapper:hover {
@@ -1529,4 +1544,75 @@ input[type="radio"]:checked + span {
 
 .popular-manufacturer {
     padding-bottom: 70px;
+}
+
+.item-link {
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 18px;
+    border: 3px solid #63a63e;
+    border-radius: 5px;
+    padding: 11px 31px;
+    margin-bottom: 7px;
+    top: 20px;
+    text-transform: uppercase;
+    box-shadow: 0 3px 0 #367315;
+}
+
+.hidden-buttons {
+    position: absolute;
+    background-color: white;
+    width: 135px;
+}
+
+.item-link-mark {
+    color: #32425c;
+}
+
+.item-link-mark:hover {
+    border-color: #32425c;
+}
+
+.item-link-mark:hover {
+    border-color: #d6d9de;
+    color: #d6d9de;
+}
+
+.item-link-buy {
+    background-color: #63a63e;
+    color: white;
+    fill: #92c178;
+    padding-left: 10px;
+}
+
+.item-link-buy svg {
+    margin-right: 22px;
+}
+
+.item-link-buy:hover {
+    background-color: #5fbb2d;
+    border-color: #5fbb2d;
+    fill: #fff;
+}
+
+.item-link-buy:active {
+    background-color: #518534;
+    border-color: #518534;
+    fill: #fff;
+}
+
+.catalog-item-hidden {
+    position: absolute;
+}
+
+.hidden-items {
+    position: absolute;
+    width: 180px;
+    min-height: 100px;
+    background-color: white;
+}
+
+.hidden-items:hover {
+    display: block;
 }
