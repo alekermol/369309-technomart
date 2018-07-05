@@ -28,7 +28,7 @@ a {
 .logo {
     flex: 0 0 220px;
 
-    margin: 0 5px 0 0;
+    margin: 0;
 
     font-size: 24px;
 }
@@ -81,14 +81,19 @@ a {
 
 .search svg {
     fill: #6a7180;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right: 14px;
-    margin-left: 17px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-right: 14px;
+    padding-left: 17px;
 }
 
 .search svg:hover {
     fill: #fff;
+}
+
+.search svg:active {
+    background-color: #fff;
+    fill: #ee3643;
 }
 
 .search:focus {
@@ -1134,6 +1139,7 @@ input[type="checkbox"]:checked + span {
     display: flex;
     justify-content: space-between;
     margin-bottom: 85px;
+    margin-top: 59px;
 }
 
 .link-in-main {
