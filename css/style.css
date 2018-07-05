@@ -575,6 +575,8 @@ header {
     font-family: "Cuprum", Arial, sans-serif;
     list-style-type: none;
     padding-left: 0px;
+    margin-bottom: 37px;
+    margin-top: 37px;
 }
 
 .about-company-items li {
@@ -1130,6 +1132,7 @@ input[type="checkbox"]:checked + span {
 
 .about-company-contacts__wrapper {
     display: flex;
+    justify-content: space-between;
     margin-bottom: 85px;
 }
 
@@ -1630,3 +1633,33 @@ input[type="radio"]:checked + span {
 }
 
 
+
+.about-company {
+    width: 540px;
+}
+
+.contacts {
+    width: 300px;
+}
+
+.contacts p {
+    max-width: 220px;
+}
+
+.link-feedback {
+    display: block;
+    text-align: center;
+    width: 300px;
+}
+
+.mini-map {
+    margin-bottom: 30px;
+}
+
+.about-link {
+    width: 220px;
+    text-align: center;
+    display: block;
+    padding-left: 0px;
+    padding-right: 0px;
+}
