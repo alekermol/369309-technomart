@@ -1675,7 +1675,49 @@ input[type="radio"]:checked + span {
     position: fixed;
     top: 50%;
     left: 50%;
-    box-shadow: 0px 0px 10px gray;
+    box-shadow: 0px 0px 15px gray;
     width: 940px;
     height: 446px;
+    margin-top: -223px;
+    margin-left: -470px;
+    background-color: white;
+    z-index: 1;
+}
+
+.modal-close {
+  position: absolute;
+  top: 0;
+  right: -1px;
+  
+  width: 22px;
+  height: 22px;
+
+  font-size: 0;
+
+  background-color: transparent;
+  border: 0;
+
+  cursor: pointer;
+}
+
+.modal-close::before,
+.modal-close::after {
+  content: "";
+
+  position: absolute;
+  top: 10px;
+  left: 2px;
+
+  width: 19px;
+  height: 3px;
+
+  background-color: #ee3643;
+}
+
+.modal-close::before {
+  transform: rotate(45deg);
+}
+
+.modal-close::after {
+  transform: rotate(-45deg);
 }
