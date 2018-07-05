@@ -226,6 +226,7 @@ a {
 
 .catalog-list__wrapper li {
     width: 220px;
+    position: relative;
 }
 
 .main-header {
@@ -880,6 +881,11 @@ header {
     list-style-type: none;
 }
 
+.catalog-list__wrapper li:hover .hidden-items {
+    display: block;
+}
+
+
 .site-navigator li {
     width: 100%;
     text-align: center;
@@ -1313,7 +1319,7 @@ input[type="checkbox"]:checked + span {
     border: 1px solid #eaeaea;
     align-items: center;
     flex-wrap: wrap;
-    position: relative
+    position: relative;
 }
 
 .catalog-item__wrapper:hover {
@@ -1607,12 +1613,12 @@ input[type="radio"]:checked + span {
 }
 
 .hidden-items {
+    display: none;
     position: absolute;
-    display: inline-block;
     min-height: 100px;
     background-color: white;
+    top: 50px;
+    left: 30px;
 }
 
-.hidden-items:hover {
-    display: block;
-}
+
