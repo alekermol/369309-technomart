@@ -138,12 +138,12 @@ a {
 
 
 .top-header__bookmark {
-    margin-left: auto;
+    margin-left: 0;
 }
 
 .top-header__bookmark-link {
     display: block;
-    padding: 11px 26px 11px 26px;
+    padding: 11px 14px 11px 26px;
     fill: #6a7180;
 }
 
@@ -173,7 +173,7 @@ a {
 
 .top-header__cart-link {
     display: block;
-    padding: 11px 26px 12px 10px;
+    padding: 11px 31px 12px 15px;
     fill: #6a7180;
 }
 
@@ -340,6 +340,7 @@ header {
     font-size: 14px;
     font-family: "Cuprum", Arial, sans-serif;
     margin-top: 0px;
+    word-wrap: break-word;
 }
 
 .top-button a,
@@ -854,7 +855,11 @@ header {
 }
 
 .link_user svg:last-child {
-    margin-left: 39px; 
+    margin-right: 10px; 
+}
+
+.link_user svg:last-child {
+    margin-left: 19px; 
 }
 
 .link_user:hover {
